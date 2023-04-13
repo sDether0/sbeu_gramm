@@ -1,0 +1,35 @@
+{
+  "profiles": {
+    "SBEU.Gramm.Api": {
+      "commandName": "Project",
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASENAME": "SBEU.Gramm",
+        "DATABASEHOST": "localhost",
+        "DATABASEPORT": "5432",
+        "DATABASEPASSWORD": "1namQfeg1",
+        "DATABASEUSER": "postgres",
+        "SECRETJWT": "aoksjdjancjasjaq",
+        "EXPIRYTIMEFRAME": "10000.00:00:00"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:51722"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:58326",
+      "sslPort": 44387
+    }
+  }
+}
